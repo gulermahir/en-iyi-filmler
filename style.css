@@ -1,0 +1,106 @@
+body {
+    background-color: #141414;
+    color: white;
+}
+
+/* padding: yazı ile border arasındaki mesafe 
+    margin: border ile diğer elementler arasındaki mesafe*/
+
+    button {
+        background-color: #DAA520;
+        padding: 8px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    h2 {
+    color: #DAA520;
+    margin-bottom: 20px;
+    padding: 2px;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.rating {
+    color: darkgoldenrod;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.review {
+    color: #F0F8FF;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 20px;
+}
+
+article {
+    background-color: #333232;
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 30px auto;
+    border: 1px solid #DAA520;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px gray;
+}
+
+.poster {
+    width: 100% ;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+/* Giriş Sayfası */
+
+.buttons ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.links {
+    font-size: 30px;
+    border: solid 2px darkgoldenrod;
+    background-color: #DAA520;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+}
+
+.links a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #141414;
+    letter-spacing: 2px;
+}
+
+.links:hover {
+    transform: scale(1.2);
+    background-color: darkgoldenrod;
+    border: solid 2px #DAA520;
+}
+
+/*
+    Hakkımızda Sayfası
+*/
+
+.ortali {
+    text-align: center;
+}
